@@ -1,15 +1,12 @@
-# Micrososft-Enagage
-folder flask api contains the code for API and recommendation model that I have made.
-folder Flutter Application contains the code of flutter app made.(this is the folder to be used for cloning the app.)
+# Movie-Recommendation app
 
--This project is a flutter based mobile application system for a movie recommendation system.
+## This is a flutter application which recommends movies to users based on their interests in different genres of movies.
 
 - The recommendations are provided to the app through a flask based recommendation model through an API and functions on the algorithm for content-based filtering, specifically cosine similarity method to compare how similar two movies are based on the keywords and cast involved.
 - App can be created by setting new account or by using a demo account that I have created i.e email:abc@gmail.com, password:123456
 
 - The dataset used in the app is fetched from TMDB(https://www.themoviedb.org/).
 - Data such as photos, ratings, cast involved are also provided by TMDB.
-
 
 
 - Various flutter packages used in the application are:
